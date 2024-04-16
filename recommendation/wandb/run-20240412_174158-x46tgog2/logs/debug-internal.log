@@ -1,0 +1,200 @@
+2024-04-12 17:41:58,229 INFO    StreamThr :10619 [internal.py:wandb_internal():86] W&B internal server running at pid: 10619, started at: 2024-04-12 17:41:58.228437
+2024-04-12 17:41:58,230 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: status
+2024-04-12 17:41:58,237 INFO    WriterThread:10619 [datastore.py:open_for_write():87] open: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/run-x46tgog2.wandb
+2024-04-12 17:41:58,238 DEBUG   SenderThread:10619 [sender.py:send():382] send: header
+2024-04-12 17:41:58,238 DEBUG   SenderThread:10619 [sender.py:send():382] send: run
+2024-04-12 17:41:58,806 INFO    SenderThread:10619 [dir_watcher.py:__init__():211] watching files in: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files
+2024-04-12 17:41:58,806 INFO    SenderThread:10619 [sender.py:_start_run_threads():1136] run started: x46tgog2 with start time 1712918518.235038
+2024-04-12 17:41:58,811 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: check_version
+2024-04-12 17:41:58,811 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: check_version
+2024-04-12 17:41:59,073 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: run_start
+2024-04-12 17:41:59,104 DEBUG   HandlerThread:10619 [system_info.py:__init__():27] System info init
+2024-04-12 17:41:59,104 DEBUG   HandlerThread:10619 [system_info.py:__init__():42] System info init done
+2024-04-12 17:41:59,104 INFO    HandlerThread:10619 [system_monitor.py:start():194] Starting system monitor
+2024-04-12 17:41:59,104 INFO    SystemMonitor:10619 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-12 17:41:59,105 INFO    HandlerThread:10619 [system_monitor.py:probe():214] Collecting system info
+2024-04-12 17:41:59,106 INFO    SystemMonitor:10619 [interfaces.py:start():190] Started cpu monitoring
+2024-04-12 17:41:59,107 INFO    SystemMonitor:10619 [interfaces.py:start():190] Started disk monitoring
+2024-04-12 17:41:59,108 INFO    SystemMonitor:10619 [interfaces.py:start():190] Started gpu monitoring
+2024-04-12 17:41:59,108 INFO    SystemMonitor:10619 [interfaces.py:start():190] Started memory monitoring
+2024-04-12 17:41:59,108 INFO    SystemMonitor:10619 [interfaces.py:start():190] Started network monitoring
+2024-04-12 17:41:59,138 DEBUG   HandlerThread:10619 [system_info.py:probe():151] Probing system
+2024-04-12 17:41:59,143 DEBUG   HandlerThread:10619 [gitlib.py:_init_repo():56] git repository is invalid
+2024-04-12 17:41:59,144 DEBUG   HandlerThread:10619 [system_info.py:probe():199] Probing system done
+2024-04-12 17:41:59,144 DEBUG   HandlerThread:10619 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-75-generic-x86_64-with-glibc2.31', 'python': '3.9.18', 'heartbeatAt': '2024-04-12T10:41:59.138306', 'startedAt': '2024-04-12T10:41:58.223560', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/train.py', 'codePathLocal': 'train.py', 'codePath': 'train.py', 'host': 'aiotlab3DESKTOP', 'username': 'aiotlab3', 'executable': '/home/aiotlab3/anaconda3/envs/readsum/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2303.5870833333333, 'min': 2200.0, 'max': 3800.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 3800.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2062.55, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2800.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3800.0}], 'disk': {'/': {'total': 915.3232879638672, 'used': 824.8029975891113}}, 'gpu': 'NVIDIA GeForce GTX TITAN X', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX TITAN X', 'memory_total': 12884901888}, {'name': 'NVIDIA GeForce RTX 2080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 62.73422622680664}}
+2024-04-12 17:41:59,144 INFO    HandlerThread:10619 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-12 17:41:59,144 INFO    HandlerThread:10619 [system_monitor.py:probe():227] Publishing system info
+2024-04-12 17:41:59,144 DEBUG   HandlerThread:10619 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-04-12 17:41:59,808 INFO    Thread-12 :10619 [dir_watcher.py:_on_file_created():271] file/dir created: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/conda-environment.yaml
+2024-04-12 17:42:01,049 DEBUG   HandlerThread:10619 [system_info.py:_save_conda():220] Saving conda packages done
+2024-04-12 17:42:01,050 INFO    HandlerThread:10619 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-12 17:42:01,054 DEBUG   SenderThread:10619 [sender.py:send():382] send: files
+2024-04-12 17:42:01,054 INFO    SenderThread:10619 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-04-12 17:42:01,060 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-12 17:42:01,060 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: python_packages
+2024-04-12 17:42:01,061 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-12 17:42:01,062 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: stop_status
+2024-04-12 17:42:01,064 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-12 17:42:01,455 DEBUG   SenderThread:10619 [sender.py:send():382] send: telemetry
+2024-04-12 17:42:01,456 DEBUG   SenderThread:10619 [sender.py:send():382] send: config
+2024-04-12 17:42:01,474 DEBUG   SenderThread:10619 [sender.py:send():382] send: metric
+2024-04-12 17:42:01,474 DEBUG   SenderThread:10619 [sender.py:send():382] send: telemetry
+2024-04-12 17:42:01,474 DEBUG   SenderThread:10619 [sender.py:send():382] send: metric
+2024-04-12 17:42:01,475 WARNING SenderThread:10619 [sender.py:send_metric():1354] Seen metric with glob (shouldn't happen)
+2024-04-12 17:42:01,475 DEBUG   SenderThread:10619 [sender.py:send():382] send: telemetry
+2024-04-12 17:42:01,475 DEBUG   SenderThread:10619 [sender.py:send():382] send: exit
+2024-04-12 17:42:01,475 INFO    SenderThread:10619 [sender.py:send_exit():589] handling exit code: 1
+2024-04-12 17:42:01,475 INFO    SenderThread:10619 [sender.py:send_exit():591] handling runtime: 2
+2024-04-12 17:42:01,476 INFO    SenderThread:10619 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-04-12 17:42:01,477 INFO    SenderThread:10619 [sender.py:send_exit():597] send defer
+2024-04-12 17:42:01,477 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 17:42:01,477 INFO    HandlerThread:10619 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-12 17:42:01,477 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: defer
+2024-04-12 17:42:01,477 INFO    SenderThread:10619 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-04-12 17:42:01,477 INFO    SenderThread:10619 [sender.py:transition_state():617] send defer: 1
+2024-04-12 17:42:01,477 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 17:42:01,477 INFO    HandlerThread:10619 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-12 17:42:01,477 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: defer
+2024-04-12 17:42:01,478 INFO    SenderThread:10619 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-04-12 17:42:01,478 INFO    SenderThread:10619 [sender.py:transition_state():617] send defer: 2
+2024-04-12 17:42:01,478 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 17:42:01,478 INFO    HandlerThread:10619 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-12 17:42:01,478 INFO    HandlerThread:10619 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-12 17:42:01,478 DEBUG   SystemMonitor:10619 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-12 17:42:01,478 DEBUG   SystemMonitor:10619 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-12 17:42:01,478 DEBUG   SystemMonitor:10619 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-12 17:42:01,478 INFO    HandlerThread:10619 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-12 17:42:01,479 INFO    HandlerThread:10619 [interfaces.py:finish():202] Joined disk monitor
+2024-04-12 17:42:01,541 INFO    HandlerThread:10619 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-12 17:42:01,541 INFO    HandlerThread:10619 [interfaces.py:finish():202] Joined memory monitor
+2024-04-12 17:42:01,541 INFO    HandlerThread:10619 [interfaces.py:finish():202] Joined network monitor
+2024-04-12 17:42:01,541 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: defer
+2024-04-12 17:42:01,541 INFO    SenderThread:10619 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-04-12 17:42:01,541 INFO    SenderThread:10619 [sender.py:transition_state():617] send defer: 3
+2024-04-12 17:42:01,542 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 17:42:01,542 INFO    HandlerThread:10619 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-12 17:42:01,542 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: defer
+2024-04-12 17:42:01,542 INFO    SenderThread:10619 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-04-12 17:42:01,542 INFO    SenderThread:10619 [sender.py:transition_state():617] send defer: 4
+2024-04-12 17:42:01,542 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 17:42:01,542 INFO    HandlerThread:10619 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-12 17:42:01,542 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: defer
+2024-04-12 17:42:01,542 INFO    SenderThread:10619 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-04-12 17:42:01,542 INFO    SenderThread:10619 [sender.py:transition_state():617] send defer: 5
+2024-04-12 17:42:01,542 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 17:42:01,542 INFO    HandlerThread:10619 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-12 17:42:01,543 DEBUG   SenderThread:10619 [sender.py:send():382] send: summary
+2024-04-12 17:42:01,543 INFO    SenderThread:10619 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-04-12 17:42:01,543 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: defer
+2024-04-12 17:42:01,543 INFO    SenderThread:10619 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-04-12 17:42:01,543 INFO    SenderThread:10619 [sender.py:transition_state():617] send defer: 6
+2024-04-12 17:42:01,543 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 17:42:01,543 INFO    HandlerThread:10619 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-12 17:42:01,543 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: defer
+2024-04-12 17:42:01,544 INFO    SenderThread:10619 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-04-12 17:42:01,591 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 17:42:01,807 INFO    Thread-12 :10619 [dir_watcher.py:_on_file_modified():288] file/dir modified: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/conda-environment.yaml
+2024-04-12 17:42:01,807 INFO    Thread-12 :10619 [dir_watcher.py:_on_file_created():271] file/dir created: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/output.log
+2024-04-12 17:42:01,807 INFO    Thread-12 :10619 [dir_watcher.py:_on_file_created():271] file/dir created: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/wandb-summary.json
+2024-04-12 17:42:01,807 INFO    Thread-12 :10619 [dir_watcher.py:_on_file_created():271] file/dir created: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/requirements.txt
+2024-04-12 17:42:01,807 INFO    Thread-12 :10619 [dir_watcher.py:_on_file_created():271] file/dir created: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/wandb-metadata.json
+2024-04-12 17:42:01,952 INFO    wandb-upload_0:10619 [upload_job.py:push():131] Uploaded file /tmp/tmpgn8tf3u4wandb/9bp31m2h-wandb-metadata.json
+2024-04-12 17:42:02,335 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-12 17:42:03,808 INFO    Thread-12 :10619 [dir_watcher.py:_on_file_modified():288] file/dir modified: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/output.log
+2024-04-12 17:42:07,363 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-12 17:42:09,975 INFO    SenderThread:10619 [sender.py:transition_state():617] send defer: 7
+2024-04-12 17:42:09,976 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: poll_exit
+2024-04-12 17:42:09,976 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 17:42:09,976 INFO    HandlerThread:10619 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-12 17:42:09,976 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 17:42:09,976 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: defer
+2024-04-12 17:42:09,976 INFO    SenderThread:10619 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-04-12 17:42:10,379 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-12 17:42:10,974 INFO    Thread-12 :10619 [dir_watcher.py:_on_file_modified():288] file/dir modified: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/config.yaml
+2024-04-12 17:42:11,482 INFO    SenderThread:10619 [sender.py:transition_state():617] send defer: 8
+2024-04-12 17:42:11,482 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: poll_exit
+2024-04-12 17:42:11,482 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 17:42:11,482 INFO    HandlerThread:10619 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-12 17:42:11,483 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: defer
+2024-04-12 17:42:11,483 INFO    SenderThread:10619 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-04-12 17:42:11,483 INFO    SenderThread:10619 [job_builder.py:build():296] Attempting to build job artifact
+2024-04-12 17:42:11,701 INFO    SenderThread:10619 [job_builder.py:_get_source_type():437] no source found
+2024-04-12 17:42:11,705 INFO    SenderThread:10619 [sender.py:transition_state():617] send defer: 9
+2024-04-12 17:42:11,705 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 17:42:11,705 INFO    HandlerThread:10619 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-12 17:42:11,706 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: defer
+2024-04-12 17:42:11,706 INFO    SenderThread:10619 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-04-12 17:42:11,706 INFO    SenderThread:10619 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-12 17:42:11,975 INFO    SenderThread:10619 [dir_watcher.py:_on_file_modified():288] file/dir modified: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/output.log
+2024-04-12 17:42:11,975 INFO    SenderThread:10619 [dir_watcher.py:finish():388] scan: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files
+2024-04-12 17:42:11,976 INFO    SenderThread:10619 [dir_watcher.py:finish():402] scan save: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/config.yaml config.yaml
+2024-04-12 17:42:11,976 INFO    SenderThread:10619 [dir_watcher.py:finish():402] scan save: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/output.log output.log
+2024-04-12 17:42:11,976 INFO    SenderThread:10619 [dir_watcher.py:finish():402] scan save: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/requirements.txt requirements.txt
+2024-04-12 17:42:11,976 INFO    SenderThread:10619 [dir_watcher.py:finish():402] scan save: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/wandb-summary.json wandb-summary.json
+2024-04-12 17:42:11,976 INFO    SenderThread:10619 [dir_watcher.py:finish():402] scan save: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/conda-environment.yaml conda-environment.yaml
+2024-04-12 17:42:11,979 INFO    SenderThread:10619 [dir_watcher.py:finish():402] scan save: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/wandb-metadata.json wandb-metadata.json
+2024-04-12 17:42:11,979 INFO    SenderThread:10619 [sender.py:transition_state():617] send defer: 10
+2024-04-12 17:42:11,990 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 17:42:11,991 INFO    HandlerThread:10619 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-12 17:42:11,991 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: defer
+2024-04-12 17:42:11,991 INFO    SenderThread:10619 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-04-12 17:42:11,991 INFO    SenderThread:10619 [file_pusher.py:finish():175] shutting down file pusher
+2024-04-12 17:42:12,381 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-12 17:42:12,381 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: poll_exit
+2024-04-12 17:42:12,616 INFO    wandb-upload_2:10619 [upload_job.py:push():131] Uploaded file /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/output.log
+2024-04-12 17:42:12,763 INFO    wandb-upload_3:10619 [upload_job.py:push():131] Uploaded file /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/requirements.txt
+2024-04-12 17:42:12,763 INFO    wandb-upload_0:10619 [upload_job.py:push():131] Uploaded file /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/wandb-summary.json
+2024-04-12 17:42:12,765 INFO    wandb-upload_4:10619 [upload_job.py:push():131] Uploaded file /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/conda-environment.yaml
+2024-04-12 17:42:13,382 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-12 17:42:13,383 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: poll_exit
+2024-04-12 17:42:14,383 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-12 17:42:14,384 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: poll_exit
+2024-04-12 17:42:15,059 INFO    wandb-upload_1:10619 [upload_job.py:push():131] Uploaded file /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/files/config.yaml
+2024-04-12 17:42:15,259 INFO    Thread-11 :10619 [sender.py:transition_state():617] send defer: 11
+2024-04-12 17:42:15,260 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 17:42:15,260 INFO    HandlerThread:10619 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-12 17:42:15,260 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: defer
+2024-04-12 17:42:15,261 INFO    SenderThread:10619 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-04-12 17:42:15,261 INFO    SenderThread:10619 [file_pusher.py:join():181] waiting for file pusher
+2024-04-12 17:42:15,261 INFO    SenderThread:10619 [sender.py:transition_state():617] send defer: 12
+2024-04-12 17:42:15,261 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 17:42:15,261 INFO    HandlerThread:10619 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-12 17:42:15,261 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 17:42:15,261 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: defer
+2024-04-12 17:42:15,261 INFO    SenderThread:10619 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-04-12 17:42:15,261 INFO    SenderThread:10619 [file_stream.py:finish():595] file stream finish called
+2024-04-12 17:42:15,385 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-12 17:42:15,765 INFO    SenderThread:10619 [file_stream.py:finish():599] file stream finish is done
+2024-04-12 17:42:15,765 INFO    SenderThread:10619 [sender.py:transition_state():617] send defer: 13
+2024-04-12 17:42:15,765 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: poll_exit
+2024-04-12 17:42:15,766 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 17:42:15,766 INFO    HandlerThread:10619 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-12 17:42:15,766 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: defer
+2024-04-12 17:42:15,766 INFO    SenderThread:10619 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-04-12 17:42:15,766 INFO    SenderThread:10619 [sender.py:transition_state():617] send defer: 14
+2024-04-12 17:42:15,767 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 17:42:15,767 INFO    HandlerThread:10619 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-12 17:42:15,767 DEBUG   SenderThread:10619 [sender.py:send():382] send: final
+2024-04-12 17:42:15,767 DEBUG   SenderThread:10619 [sender.py:send():382] send: footer
+2024-04-12 17:42:15,767 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: defer
+2024-04-12 17:42:15,767 INFO    SenderThread:10619 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-04-12 17:42:15,768 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-12 17:42:15,768 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: poll_exit
+2024-04-12 17:42:15,768 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-12 17:42:15,768 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: poll_exit
+2024-04-12 17:42:15,769 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: server_info
+2024-04-12 17:42:15,769 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: server_info
+2024-04-12 17:42:15,769 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-12 17:42:15,772 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-12 17:42:15,772 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-12 17:42:15,772 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: job_info
+2024-04-12 17:42:15,963 DEBUG   SenderThread:10619 [sender.py:send_request():409] send_request: job_info
+2024-04-12 17:42:15,964 INFO    MainThread:10619 [wandb_run.py:_footer_history_summary_info():3857] rendering history
+2024-04-12 17:42:15,964 INFO    MainThread:10619 [wandb_run.py:_footer_history_summary_info():3889] rendering summary
+2024-04-12 17:42:15,964 INFO    MainThread:10619 [wandb_run.py:_footer_sync_info():3816] logging synced files
+2024-04-12 17:42:15,965 DEBUG   HandlerThread:10619 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-12 17:42:15,965 INFO    HandlerThread:10619 [handler.py:finish():869] shutting down handler
+2024-04-12 17:42:16,773 INFO    WriterThread:10619 [datastore.py:close():296] close: /media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/wandb/run-20240412_174158-x46tgog2/run-x46tgog2.wandb
+2024-04-12 17:42:16,964 INFO    SenderThread:10619 [sender.py:finish():1572] shutting down sender
+2024-04-12 17:42:16,964 INFO    SenderThread:10619 [file_pusher.py:finish():175] shutting down file pusher
+2024-04-12 17:42:16,964 INFO    SenderThread:10619 [file_pusher.py:join():181] waiting for file pusher

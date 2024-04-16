@@ -1,0 +1,22 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m Serializing object of type dict that is 1310808 bytes
+[34m[1mwandb[39m[22m: [33mWARNING[39m Serializing object of type dict that is 1310808 bytes
+  0%|                                                                                                                                                                              | 0/16640 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/train.py", line 118, in <module>
+    trainer.train()
+  File "/home/aiotlab3/anaconda3/envs/readsum/lib/python3.9/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/home/aiotlab3/anaconda3/envs/readsum/lib/python3.9/site-packages/transformers/trainer.py", line 1821, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/home/aiotlab3/anaconda3/envs/readsum/lib/python3.9/site-packages/accelerate/data_loader.py", line 451, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/home/aiotlab3/anaconda3/envs/readsum/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/aiotlab3/anaconda3/envs/readsum/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/aiotlab3/anaconda3/envs/readsum/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/aiotlab3/anaconda3/envs/readsum/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/RISE/Loc/LibRec/recommendation/multi_label_dataset.py", line 36, in __getitem__
+    one_hot = np.zeros(num_labels)
+NameError: name 'np' is not defined
